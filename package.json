@@ -1,0 +1,7 @@
+{
+  "name": "mohammad-syeduzzaman-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free personal portfolio and public resume",
+  "scripts": { "dev": "node server.cjs", "start": "node server.cjs", "build": "node build.cjs" }
+}

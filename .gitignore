@@ -1,0 +1,9 @@
+dist/
+.vercel/
+node_modules/
+.env
+.env.*
+*.pdf
+
+# Local editing notes
+CODEX-HANDOFF.md
