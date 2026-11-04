@@ -32,7 +32,7 @@ The existing vercel.json is an optional alternative hosting configuration, not t
 
 - CV is the source for PlanSo dates, responsibilities, education, and technologies.
 - AZ-900 achievement month is omitted because the CV and prior certificate review disagree.
-- Language levels are omitted pending a final consistent choice.
+- Language levels follow the latest supplied resume: English C2 and German B1/B2.
 - HotBDDeals artwork is a CSS illustration labelled as such, not a screenshot of the live product.
 - The company name is shown without an unverified employer website link.
 - No invented metrics, testimonials, customers, project screenshots, or proprietary code.
@@ -56,3 +56,7 @@ The review improved readable body/metadata text, diagram contrast, language-butt
 Visual browser rendering and PDF pagination are not yet verified: this environment blocks observation of the local file and local HTTP connections. In VS Code, preview both languages at narrow phone, tablet, and desktop widths and print the résumé before public release. The source has responsive rules, but source checks are not a substitute for viewing it.
 
 Comparison references: [Brittany Chiang](https://brittanychiang.com/) and [Lee Robinson](https://leerob.com/) for a clear introduction, concrete work history, and straightforward navigation. This portfolio retains its own cream/green design and original content.
+
+## AI project update
+
+Selected work includes Workshop Insights, a personal RAG prototype using Python, LangChain, OpenAI embeddings, Chroma, synthetic workshop documents, source citations, and evaluation checks. The PlanSo development automation case study describes UserSnap ticket classification and a Codex workflow with developer approval before implementation, testing, and staging deployment. The public resume also includes employee scheduling/time tracking, code-generation and review agents, and the two AI courses completed in June 2026. Neither the original PDF nor private contact details are included.

@@ -125,3 +125,16 @@ footer a { display: inline-flex; align-items: center; min-height: 36px; }
 }
 
 .education > span, .certifications { color: #56664d; }
+
+/* AI case studies added from the November résumé update. */
+.ai-project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin: 44px 0; }
+.ai-case { min-width: 0; border-top: 2px solid #91a67a; }
+.ai-case > p { max-width: 62ch; }
+.ai-case .case-top { flex-wrap: wrap; gap: 8px 14px; }
+.ai-case h3 { min-height: 0; }
+.certifications h4, .language-note h4 { margin: 12px 0 0; font-size: 13px; font-weight: 600; color: var(--ink); }
+.language-note { border-top: 1px solid #d3d9c9; margin-top: 24px; padding-top: 10px; }
+.language-note p { font-size: 13px; color: #56664d; margin: 6px 0 0; }
+.resume h4 { font-size: 14px; margin: 20px 0 8px; break-after: avoid; }
+@media (max-width: 700px) { .ai-project-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; margin: 34px 0; } }
+@media print { .resume h4 { font-size: 10pt; margin-top: 14px; } }
