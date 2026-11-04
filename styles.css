@@ -81,7 +81,7 @@ footer a { display: inline-flex; align-items: center; min-height: 36px; }
   .hero { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
   .experience-layout, .about-grid, .contact-layout { gap: 40px; }
   .case-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .case:last-child { grid-column: 1 / -1; max-width: 650px; }
+  .case-grid > .case:last-child { grid-column: 1 / -1; max-width: 650px; }
   .project-copy { padding: 28px; }
   .strip-divider { display: none; }
 }
@@ -110,7 +110,7 @@ footer a { display: inline-flex; align-items: center; min-height: 36px; }
   .project-copy { padding: 28px 22px; }
   .project-links { gap: 8px 18px; }
   .case-grid { grid-template-columns: minmax(0, 1fr); }
-  .case:last-child { grid-column: auto; max-width: none; }
+  .case-grid > .case:last-child { grid-column: auto; max-width: none; }
   .case h3, html[lang="de"] .case h3 { min-height: 0; }
   .case .tags span { font-size: 11px; }
   .art-heading, html[lang="de"] .art-heading { font-size: 9px; letter-spacing: 1px; }
@@ -141,4 +141,3 @@ footer a { display: inline-flex; align-items: center; min-height: 36px; }
 
 /* Keep the legacy three-card grid rules out of the two AI case studies. */
 .ai-project-grid > .case { grid-column: auto; max-width: none; }
-
